@@ -54,3 +54,5 @@ networkx
 plotly
 bs4
 jupyter
+splinter
+xlrd
