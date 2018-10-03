@@ -3,3 +3,4 @@ venv
 .DS_Store
 .ipynb_checkpoints
 geckodriver.log
+backup

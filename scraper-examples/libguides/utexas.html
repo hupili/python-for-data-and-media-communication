@@ -1,0 +1,1016 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Home - LibGuides at University of Texas at Austin</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="robots" content="noarchive" /><!-- favicon.twig -->
+<link rel="apple-touch-icon" sizes="180x180" href="//libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
+<link rel="manifest" href="//libapps.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
+<link rel="mask-icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="//libapps.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="LibGuides">
+                <meta property="og:description" content=" "><meta property="og:type" content="website">
+      		    <meta property="og:url" content="https://guides.lib.utexas.edu/">
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:site" content="@springshare"><link rel="stylesheet" href="/web/jquery/css/jquery-ui.min.css?2695" />
+                <link rel="stylesheet" href="/web/font-awesome/4.7.0/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="/web/css1.26.8/lg-public.min.css" />
+                <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script>
+                <script type="text/javascript" src="/web/jquery/js/jquery-ui.min.js?2695"></script>
+                <script type="text/javascript" src="/web/js1.26.8/lg-public.min.js"></script>
+                <!-- BEGIN: CUSTOM HEAD JS/CSS -->
+                <style>
+
+body a, body a:link
+{
+	color:#2d699e;	
+}
+
+body a:focus, body a:hover
+{
+	color:#23527c;
+}
+
+body .s-lib-box-idx-guide-list
+{
+	background-color:#f5f5f5 !important;
+}
+
+
+body
+{
+	background-color:#fdfdfd !important;
+}
+
+body #s-lg-side-nav-content
+{
+	padding-top:3px;
+}
+
+body #s-lg-guide-header
+{
+padding-left:0px;
+}
+
+body #s-lg-guide-name
+{
+	white-space:nowrap;
+	display:inline-block;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#utl-global-header
+{
+   background-color:#BF5700;
+   min-height:35px;
+}
+
+body #s-lg-guide-header-search
+{
+	padding: 9px;
+    background-color: #757575;
+}
+
+#s-lg-guide-search-box
+{
+	margin-right:15px;
+}
+
+body .s-lib-color-lt-grey
+{
+	color: #6a6a6a;
+}
+
+body #s-lib-admin-bc .breadcrumb,body  #s-lib-bc .breadcrumb
+{
+	
+}
+
+@media screen and (min-width: 700px)
+{
+#utl-global-header>a:nth-of-type(2)
+{
+float:left;
+margin-left:20px;
+margin-top:5px;
+}
+#utl-global-header>a:nth-of-type(1)
+{
+float:right;
+margin-right:20px;
+margin-top:5px;
+}
+}
+
+@media screen and (max-width: 700px)
+{
+	body
+	{
+		padding:0px 5px 0px 5px !important;
+	}
+
+	#s-lg-guide-search-box
+	{
+		margin:auto;
+	}
+	body .pull-right
+	{
+		float:left !important;
+		clear:both;
+		margin-bottom:5px;
+		width:100%;
+	}
+	.s-lib-public-side-header
+	{margin-top:5px;
+	}
+	body .nav .s-lg-index-nav-btn>a
+	{
+		margin: 0px 5px;
+		padding: 5px 5px;
+	}
+	body #s-lg-guide-header-search
+	{
+		width:100%;
+	}
+}
+
+
+
+#utl-global-header>a>img
+{
+height:26px;
+}
+
+body .cke_combo, body a.cke_button__textcolor, body a.cke_button__bgcolor
+{
+display:none;
+}
+
+body .cke_toolbar:nth-of-type(1) .cke_combo:nth-of-type(4)
+{
+display:inline-block;
+}
+
+.dropdown-menu, .multiselect-item.filter .input-group-addon, body {
+font-size: 14px;
+}
+
+body #s-lib-admin-bc .breadcrumb, body #s-lib-bc .breadcrumb{
+font-size: 12px;
+background-color: #005f86;
+font-weight: 700;
+padding: 20px;
+margin: 3px 0 3px;
+color:white;
+}
+
+body #s-lib-admin-bc .breadcrumb a, body #s-lib-bc .breadcrumb a{
+color:white;
+}
+
+body .breadcrumb>.active
+{
+color:white;
+}
+
+body .s-lib-box
+{
+	background-color:#ebebe6;
+	border-color:#ebebe6;
+}
+
+body .s-lib-box .s-lib-box-title
+{
+font-size:20px;
+background-color:#ebebe6;
+border-color:#ebebe6;
+}
+
+body .col-md-6 .s-lib-box, body .col-md-9 .s-lib-box
+{
+	background-color:#f6f6f6;
+	border-color:#f6f6f6;
+}
+
+body .col-md-6 .s-lib-box .s-lib-box-title, body .col-md-9 .s-lib-box .s-lib-box-title
+{
+	background-color:#f6f6f6;
+	border-color:#f6f6f6;
+}
+
+.col-md-9 .row {
+    margin-right: 0px;
+}
+
+
+body #s-lg-public-skiplink
+{
+    top:-150px;
+}
+
+@media screen and (min-width: 1200px)
+{.columns
+{
+width:600px;
+margin:auto;
+overflow:hidden;
+}
+.columns>div
+{
+float:left;
+width:250px;
+margin:10px;
+}
+}
+
+body .btn
+{
+border-radius:0;
+}
+
+body .btn-info
+{
+border:none;
+background-color:#d9d9d9;
+color:black;
+}
+
+#s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb
+{
+background-color:#ebebe6;
+}
+
+#utl-page-title
+{
+background-color:#ebebe6;
+padding: 20px;
+font-size:24px;
+}
+
+body .s-lg-rss-links
+{
+	display:none;
+}
+
+body .nav-pills>li.active>a, body .nav-pills>li.active>a:focus, body .nav-pills>li.active>a:hover, body  .btn-info.active, body  .btn-info.focus, body  .btn-info:active, body  .btn-info:focus, body  .btn-info:hover, body  .open>.dropdown-toggle.btn-info, body .ui-state-active, body .ui-widget-content .ui-state-active, body .ui-widget-header .ui-state-active, body .ui-state-active>a, body .ui-widget-content .ui-state-active>a, body .ui-widget-header .ui-state-active>a, body  .btn-default.active, body .btn-default.focus, body .btn-default:active, body .btn-default:focus, body .btn-default:hover, body .open>.dropdown-toggle.btn-default, body .ui-state-hover, body .ui-widget-content .ui-state-hover, body .ui-widget-header .ui-state-hover, body .ui-state-focus, body .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, body .ui-state-hover>a, body .ui-widget-content .ui-state-hover>a, body .ui-widget-header .ui-state-hover>a, body .ui-state-focus>a, body .ui-widget-content .ui-state-focus>a, .ui-widget-header .ui-state-focus, body #s-lg-guide-search-form .btn, body #s-lg-srch-form .btn, body .label-info[href]:focus, body .label-info[href]:hover, body .label-info, body a.libChat, body #s-lg-az-reset
+{
+   background-color:#BF5700;
+   border-radius:0;
+   background-image:none;
+   color:white !important;
+}
+
+body #s-lg-az-reset:hover
+{
+	text-decoration:underline;
+}
+
+
+.scoutBox img
+{
+  display:block;
+  margin:auto;
+  margin-bottom:20px;
+}
+
+body #s-lg-guide-desc-container
+{
+ display:none;
+}
+
+body #s-lg-guide-header-info
+{
+	background-color:#757575;
+	color:white;
+	padding:8px;
+}
+
+body #s-lib-footer-public
+{
+	background-color:#ffffff;
+}
+
+body #utl-page-title
+{
+	margin-top:0px;
+}
+
+body #s-lg-tabs-container ul.split-button-nav>li>a
+{
+	background-color:#f1f1f1;
+	color:black;
+}
+
+body .s-lg-no-val, body .s-lg-text-greyout, body .s-lib-greyout
+{
+	color:#373737;
+}
+
+
+body div.s-lg-guide-list-info .s-lg-guide-info-account
+{
+	display:none;
+}
+
+body div.s-lg-guide-list-info .s-lg-guide-info-updated
+{
+	display:none;
+}
+
+body div.s-lg-guide-list-info .s-lg-guide-info-views
+{
+	display:none;
+}
+
+body .UTL-caption
+{
+	font-size:10px;
+}
+
+body a.libChat, body a.s-lg-hp-btn-section
+{
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    padding: .2em .6em .3em;
+	font-size:1.6em;
+	font-weight:bold;
+    display: block;
+    margin: auto;
+    width: 180px;
+	background-color:#BF5700;
+	color:white;
+}
+
+body div#s-lg-profile-help-div .s-lg-hp-btn-section
+{
+	font-size:15px;
+}
+
+body .s-lg-hp-btn-section:hover
+{
+	text-decoration:underline;
+}
+
+
+body .s-lg-google-search-field
+{	
+	width:50%;
+	min-width:150px;
+}
+
+body .ccFoot
+{
+	font-size: 10px;
+        background-color: ##ffffff;
+        text-align: center;
+}
+
+#s-lg-index-group-btn
+{
+	display:none;
+}
+
+#s-lib-bc-group
+{
+	display:none;
+}
+
+
+@media screen and (min-width: 700px)
+{
+.flexrow
+{
+       display:flex;
+       display: -webkit-flex;
+       margin:0;
+}
+
+.flexrow .navcol
+{
+     padding-left:0;
+     min-width:25%;
+}
+
+.varcol
+{
+     width:auto;
+     max-width:25%;
+     padding:0;
+}
+
+.varcol>div:nth-of-type(1)>div
+{
+     margin-left:15px;
+}
+
+.varcol>div:nth-of-type(1)>div:empty
+{
+     margin-left:0px;
+}
+
+
+.primcol
+{
+     width:75%;
+     min-width:50%;
+}
+
+}
+
+body .s-lib-featured-profile-container
+{
+	margin:0px !important;
+	width:auto;
+}
+
+.s-lib-featured-profile-image img {
+    width: auto;
+    height: 170px;
+    margin: auto;
+    display: block;
+}
+
+.s-lib-featured-profile-spacer
+{
+	clear:none;
+	display:none;
+}
+
+/*various color contrast accessibility fixes*/
+
+body .btn-link
+{
+	color:#2d699e;	
+}
+
+body #s-lib-admin-bc .breadcrumb>.active, body #s-lib-bc .breadcrumb>.active {
+    color: #d2d2d2;
+}
+
+body .pagination>.disabled>a, body .pagination>.disabled>a:focus, body .pagination>.disabled>a:hover, body .pagination>.disabled>span, body .pagination>.disabled>span:focus, body .pagination>.disabled>span:hover
+{
+	color:#595959;
+}
+
+body .s-lg-rss-date
+{
+	color:#595959;
+}
+
+body .navbar-default .navbar-brand
+{
+	color: #494949;	
+}
+
+.badge
+{
+	background-color: #686868;
+}
+
+body .btn-primary
+{
+	background-image:none;
+}
+</style>
+                <!-- END: CUSTOM HEAD JS/CSS -->
+                <script>
+                    var system = {"name":"LibGuides"};
+                    springSpace.publicObj = new springSpace.public.Public({
+                        constant: {
+                            PROCESSING: {
+                                
+                            },
+                            CONTENT: {
+                            }
+                        },
+                        system_name: system.name,
+                        customer: {"name":"University of Texas at Austin"}
+                    });
+					springSpace.Session.CONST.ACTION_AUTH_SET_LG_SESSION_COOKIE = 750;
+					jQuery(function() {
+						springSpace.Session.getLGSessionStatus({
+							url: "https://austin-utexas.libapps.com/libapps/login_process.php",
+							data: {
+								action: 5,
+								app_id: 1,
+								domain: "guides.lib.utexas.edu",
+								site_id: 7871
+							}
+						});
+					});
+				jQuery(function() {
+					setInterval(function() {
+						springSpace.Session.getLGSessionStatus({
+							url: "https://austin-utexas.libapps.com/libapps/login_process.php",
+							data: {
+								action: 5,
+								app_id: 1,
+								domain: "guides.lib.utexas.edu",
+								site_id: 7871
+							}
+						})
+					}, 600000);
+				});
+                </script><script async  src="sa2.php?site_id=7871&tsh=libguides-proc.springyaws.com&cms=1"></script>
+                <script>
+                    springSpace.Common = springSpace.Common || { };
+                    springSpace.Common.constant = {
+                        PROCESSING: {
+                            ACTION_DISPLAY_POLL: 159
+                        }
+                    };
+                    springSpace.publicObj.constant.PROCESSING.ACTION_LOAD_GUIDE_LIST = 170;
+                    springSpace.publicObj.homeNavButtons = {"170":"All Guides","171":"By Group","172":"By Subject","173":"By Type","174":"By Owner"};
+                    springSpace.publicObj.getCountType=function(action) {
+                        var count_type = "";
+                        switch (action) {
+                            case 176:
+                                count_type = "guidetype";
+                                break;
+                            case 177:
+                                count_type = "group";
+                                break;
+                            case 178:
+                                count_type = "owner";
+                                break;
+                        }
+                        return count_type;
+                    };
+                    springSpace.publicObj.loadGuideCounts=function(config) {
+                        xhr = jQuery.ajax({
+                            url: "/index_process.php?action=" + config.action + "&site_id=" + config.site_id + "&group_id=" + config.group_id + "&key=" + key,
+                            type: "GET",
+                            dataType: "json",
+                            success: function(response, textStatus, jqXHR) {
+                                if ( response.errCode == 200 ) {
+                                    var count_type = springSpace.publicObj.getCountType(config.action);
+                                    jQuery.each(response.data, function(idx, elt) {
+											jQuery("#s-lg-index-" + count_type + "-" + elt.id).show();
+											jQuery("#s-lg-index-" + count_type + "-count-" + elt.id).html(elt.count);
+                                    });
+                                } else {
+                                    // Show error message.
+                                    springSpace.UI.notify({mode: "custom", msg: "Error loading guide counts."});
+                                }
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                // error
+                                springSpace.UI.notify({mode: "custom", msg: "Error loading guide counts."});
+                            }
+                        });
+                    }
+                    
+                    var button_data = {"code":"s"};
+                    
+                    springSpace.homepage = {
+                        default_list_order: "a",
+                        current_list: 172,
+                        current_btn_id: "s-lg-index-subject-btn",
+                        current_num_cols: 1,
+                        current_type_label: "",
+                        current_button_code: button_data.code,
+                        group_id: 0,
+				        historyEdited: false,
+                        initPushState: function() {
+                            if (window.history && history.pushState) {
+                                jQuery(window).bind("popstate", function(e) {
+                                    // Don't reload list if this is the result of a skip link hash update.
+                                    if ( springSpace.homepage.historyEdited ) {
+                                        // location.search will return URL encoded values which will end up causing double-encoding when jQuery sends the loadAzList request.
+                                        var button_code = springSpace.Util.getQSParam({name: "b", qs: location.search});
+                                        var guide_display_code = springSpace.Util.getQSParam({name: "d", qs: location.search});
+                                        
+                                        // If there is no button code, leave things the same.
+                                        if (button_code === "") {
+                                            return;
+                                        }
+                                        
+                                        springSpace.publicObj.loadHomepageList({
+                                            nav: "back",
+                                            action: springSpace.homepage.mapQSIdToActionId(button_code),
+                                            group_id: springSpace.homepage.group_id,
+                                            order: springSpace.homepage.mapQSIdToGuideSortId(guide_display_code),
+                                            num_cols: 1,
+                                            elt_id: "s-lg-index-list",
+                                            button_id: springSpace.homepage.mapQSIdToButtonEltId(button_code),
+                                            type_label: "Subjects",
+                                            display_sort: ( springSpace.homepage.mapQSIdToButtonEltId(button_code) === "s-lg-index-all-btn")
+                                        });
+                                    }
+                                });
+                            }
+                        },
+                        mapQSIdToButtonEltId: function(qs_id) {
+                            var button_ids = {
+                                "g": "s-lg-index-all-btn",
+                                "s": "s-lg-index-subject-btn",
+                                "t": "s-lg-index-guidetype-btn",
+                                "o": "s-lg-index-owner-btn",
+                                "p": "s-lg-index-group-btn",
+                            };
+                            springSpace.Util.setObjProp(qs_id, "", button_ids);
+                            
+                            return button_ids[qs_id];
+                        },
+                        mapQSIdToActionId: function(qs_id) {
+                            var button_ids = {
+                                "g": "170",
+                                "s": "172",
+                                "t": "173",
+                                "o": "174",
+                                "p": "171",
+                            };
+                            springSpace.Util.setObjProp(qs_id, "", button_ids);
+                            
+                            return button_ids[qs_id];
+                        },
+                        mapButtonEltIdToQSId: function(btn_elt_id) {
+                            var button_ids = {
+                                "s-lg-index-all-btn": "g",
+                                "s-lg-index-subject-btn": "s",
+                                "s-lg-index-guidetype-btn": "t",
+                                "s-lg-index-owner-btn": "o",
+                                "s-lg-index-group-btn": "p",
+                            };
+                            springSpace.Util.setObjProp(btn_elt_id, "", button_ids);
+                            
+                            return button_ids[btn_elt_id];
+                        },
+                        mapQSIdToGuideSortId: function(qs_id) {
+                            var sort_ids = {
+                                "a": "0",
+                                "r": "2",
+                                "p": "3"
+                            };
+                            springSpace.Util.setObjProp(qs_id, "", sort_ids);
+                            
+                            return sort_ids[qs_id];
+                        },
+                        mapGuideSortIdToQSId: function(sort_id) {
+                            var sort_ids = {
+                                "0": "a",
+                                "2": "r",
+                                "3": "p"
+                            };
+                            springSpace.Util.setObjProp(sort_id, "", sort_ids);
+                            
+                            return sort_ids[sort_id];
+                        },
+                        processPushState: function(config) {
+                            if (history.pushState) {
+                                // Only call pushState if this is a call to navigate forward (link, etc.), not back or initial load.
+                                if ( config.nav !== "back" && config.nav !== "init" ) {
+                                    // Only add display code to URL if on the guides button.
+                                    var qs_config = (
+                                        springSpace.homepage.current_button_code === "g" ?
+                                        { button_code: springSpace.homepage.current_button_code,
+                                          guide_display_code: springSpace.homepage.default_list_order } : 
+                                        { button_code: springSpace.homepage.current_button_code }
+                                    );
+                                    
+                                    var url = location.pathname + springSpace.homepage.buildQS(qs_config);
+                                    history.pushState({}, null, url);
+                                }
+                            }
+                            
+                            // Set flag to indicate history has been updated.
+                            springSpace.homepage.historyEdited = true;				
+                        },
+                        buildQS: function(config) {
+                            var params = {
+                                b: springSpace.Util.setProp(config.button_code, ""),
+                                d: springSpace.Util.setProp(config.guide_display_code, "")
+                            };
+                            
+                            // Add group_id to query string if supplied.
+                            if (springSpace.homepage.group_id) {
+                                params.group_id = springSpace.homepage.group_id;                            
+                            } 
+                            
+                            var qs_params = [];
+                            
+                            jQuery.each(params, function(idx, val) {
+                                if ( val !== "" && val !== "0") { 
+                                    qs_params.push(idx + "=" + encodeURIComponent(val));
+                                }
+                            });
+                    
+                            return ( qs_params.length == 0 ? "" : "?" + qs_params.join("&") );
+                        }
+                    };
+                    
+                    jQuery(function() {
+                        // Initialize pushState handling.
+                        springSpace.homepage.initPushState();
+                        
+						// Clear out the search term from previous search/back button.
+						jQuery("#s-lg-guide-search").val("");
+						
+						// Load guide list.
+						springSpace.publicObj.loadHomepageList({
+                            action: springSpace.homepage.current_list,
+                            group_id: "0",
+                            order: springSpace.homepage.mapQSIdToGuideSortId(springSpace.homepage.default_list_order),
+                            num_cols: 1,
+                            elt_id: "s-lg-index-list",
+                            button_id: springSpace.homepage.current_btn_id,
+                            type_label: "Subjects",
+							display_sort: ( springSpace.homepage.current_btn_id === "s-lg-index-all-btn")
+                        });
+
+                        // Select default dropdown option.
+                        jQuery("#s-lg-guide-order > option[value=" + springSpace.homepage.mapQSIdToGuideSortId(springSpace.homepage.default_list_order) + "]").prop("selected",true);
+
+                        // Load guide type counts.
+                        springSpace.publicObj.loadGuideCounts({
+                            action: 176,
+                            site_id: 7871,
+                            group_id: 0
+                        });
+
+                        // Load group guides counts.
+                        springSpace.publicObj.loadGuideCounts({
+                            action: 177,
+                            site_id: 7871
+                        });
+
+						   // Load owner group counts.
+                        springSpace.publicObj.loadGuideCounts({
+                            action: 178,
+                            site_id: 7871,
+							   group_id: 0
+                        }	);
+                    });jQuery(window).on('load', function() {springSpace.springTrack.init({_st_site_id: '7871'});});
+                        jQuery(function() {jQuery(window).on('load', function() {springSpace.springTrack.trackPage({_st_type_id: '11'});});
+                        });
+                </script>
+                
+                    </head>
+    <body class="s-lib-public-body">
+    <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a>    <!-- BEGIN: Page Header -->
+    <div id="utl-global-header">
+<a href="http://utexas.edu"><img src="https://s3.amazonaws.com/libapps/accounts/78733/images/shield_texas_white_transparent.png" alt="University of Texas"></a>
+<a href="http://lib.utexas.edu"><img src="https://s3.amazonaws.com/libapps/accounts/78733/images/libraries_wordmark_white_transparent.png" alt="University of Texas Libraries"></a>
+</div>    <!-- END: Page Header -->
+    <!-- BEGIN: Content Header -->
+    <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
+        <div id="s-lib-bc">
+            
+			<ol id="s-lib-bc-list" class="breadcrumb">
+				
+					<li id="s-lib-bc-customer">
+						<a title="University of Texas Libraries"  href="http://www.lib.utexas.edu/">University of Texas Libraries
+						</a>
+					</li>
+					<li id="s-lib-bc-site">
+						<a title="LibGuides"  href="//guides.lib.utexas.edu/">LibGuides
+						</a>
+					</li>
+					<li id="s-lib-bc-page" class="active">Home
+					</li>
+			</ol>        </div>
+        <h1 id="s-lib-public-header-title"></h1>
+        <div id="s-lib-public-header-desc"></div>
+    </div>
+    <!-- END: Content Header -->
+    <!-- BEGIN: Nav Bar -->
+    <div id="s-lib-public-nav" class="container s-lib-side-borders">
+            </div>
+    <!-- END: Nav Bar -->
+    <!-- BEGIN: content -->
+    <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders">
+        <div id="s-lg-index-cols" class="row">
+            <div id="col1" class="col-md-8 center">
+                <div class="clearfix">
+                    <div id="s-lg-hp-nav">
+                        <ul>
+                            <li>
+                                <ul class="nav nav-pills">
+                                    <li id="s-lg-index-all-btn" class="s-lg-index-nav-btn active">
+                            <button type="button" class="btn" onclick="springSpace.publicObj.loadHomepageList({
+									action: 170,
+									group_id: 0,
+									order: jQuery('#s-lg-guide-order').val(),
+									num_cols: 1,
+									elt_id: 's-lg-index-list',
+									button_id: 's-lg-index-all-btn',
+									display_sort: true
+								});"
+							>ALL GUIDES</button>
+                        </li>                                    <li id="s-lg-index-group-btn" class="s-lg-index-nav-btn">
+                                    <button type="button" class="btn" onclick="springSpace.publicObj.loadHomepageList({
+                                        action: 171,
+                                        group_id: 0,
+                                        num_cols: 1,
+                                        type_label: 'Groups',
+                                        elt_id: 's-lg-index-list',
+                                        button_id: 's-lg-index-group-btn',
+                                    });">BY GROUP</button>
+                                </li>                                    <li id="s-lg-index-subject-btn" class="s-lg-index-nav-btn">
+							<button type="button" class="btn" onclick="springSpace.publicObj.loadHomepageList({
+                                action: 172,
+								group_id: 0,
+								num_cols: 1,
+								type_label: 'Subjects',
+                                elt_id: 's-lg-index-list',
+                                button_id: 's-lg-index-subject-btn',
+                      		});">BY SUBJECT</button>
+						</li>                                    <li id="s-lg-index-guidetype-btn" class="s-lg-index-nav-btn">
+							<button type="button" class="btn" onclick="springSpace.publicObj.loadHomepageList({
+								action: 173,
+								group_id: 0,
+								num_cols: 1,
+								type_label: 'Guide Types',
+								elt_id: 's-lg-index-list',
+								button_id: 's-lg-index-guidetype-btn',
+							});">BY TYPE</button>
+						</li>                                    <li id="s-lg-index-owner-btn" class="s-lg-index-nav-btn">
+							<button type="button" class="btn" onclick="springSpace.publicObj.loadHomepageList({
+								action: 174,
+								group_id: 0,
+								num_cols: 1,
+								type_label: 'Guide Owners',
+								elt_id: 's-lg-index-list',
+								button_id: 's-lg-index-owner-btn',
+							});">BY OWNER</button>
+						</li>                                </ul>
+                            </li>
+                            <li id="s-lg-hp-nav-bottom">
+                                <div class="clearfix">
+                                    
+			<form role="search" class="form-inline pull-right" action="/srch.php">
+				<span>
+					Search:
+				</span>
+				<div class="form-group">
+					<div class="s-lg-public-search-field">
+						<label class="control-label sr-only" for="s-lg-guide-search">Enter Search Words</label>
+						<div class="input-group">
+							<input type="text" id="s-lg-guide-search" name="q" class="form-control"
+							placeholder="Enter Search Words" />
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit">Search</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</form>                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+			<div id="s-lg-guide-list-controls">
+				<div class="pull-left">
+					<h2 id="s-lg-index-list-header" class="muted"></h2>
+				</div>
+				<div class="pull-right muted">
+                    <div class="form-inline" id="form-group-s-lg-guide-order">
+                        <div class="form-group">
+                            <label for="s-lg-guide-order">Display</label>
+                            <select id="s-lg-guide-order" name="s-lg-guide-order" class="form-control">
+                                <option value="0">Alphabetically</option>
+                                <option value="3">By Popularity</option>
+                                <option value="2">Most Recent</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-default" onclick="springSpace.publicObj.loadHomepageList({
+                            action: 170,
+                            group_id: 0,
+                            order: jQuery('#s-lg-guide-order').val(),
+                            num_cols: 1,
+                            elt_id: 's-lg-index-list',
+                            button_id: 's-lg-index-all-btn',
+                            display_sort: true,
+                            type_label: springSpace.homepage.current_type_label
+                        });">Go</button>
+                    </div>
+				</div>
+			</div>                </div>
+                <div id="s-lg-index-list" class="">
+                                    </div>
+            </div>
+            <div id="col2" class="col-md-4 center">
+                
+			<div class="margin-bottom-xlg">
+				<div class="s-lib-public-side-header">
+               		<h2 class="pad-bottom-sm">Databases A-Z List
+					</h2>
+				</div>
+					<div class="txt pad-top-sm">Full list of Databases the library subscribes to, including trial access.
+					</div><a href="/az.php" class="btn btn-info s-lg-hp-btn-section">Go to A-Z List</a>
+			</div>
+			<div class="margin-bottom-xlg">
+				<div class="s-lib-public-side-header">
+               		<h2 class="pad-bottom-sm">Ask a Librarian
+					</h2>
+				</div>
+					<div class="txt pad-top-sm">
+			<div id="s-lg-content-21464270" class="  clearfix">
+				<p><a class="libChat" href="http://www.lib.utexas.edu/services/reference/chat/">Chat With Us</a></p>
+
+<p style="font-size:10px; text-align:center;">EID login required</p>
+		   </div>
+					</div>
+			</div>
+			<div class="margin-bottom-xlg">
+				<div class="s-lib-public-side-header">
+               		<h2 class="pad-bottom-sm">Your Friendly Librarians
+					</h2>
+				</div>
+					<div class="txt pad-top-sm">
+        <div class="s-lib-featured-profile-container"><a href="/prf.php?account_id=95623">
+            <div class="s-lib-featured-profile-image">
+                 <img src="//libapps.s3.amazonaws.com/accounts/95623/profiles/85776/liz_2015_dec.jpg" alt="Liz DeHart's picture" />
+            </div>
+            <div class="s-lib-profile-div s-lib-featured-profile-name">Liz DeHart</div></a>
+        </div>
+        <div class="s-lib-featured-profile-container"><a href="/prf.php?account_id=95907">
+            <div class="s-lib-featured-profile-image">
+                 <img src="//libapps.s3.amazonaws.com/accounts/95907/profiles/86076/Goodale_CREEES.jpeg" alt="Ian Goodale's picture" />
+            </div>
+            <div class="s-lib-profile-div s-lib-featured-profile-name">Ian Goodale</div></a>
+        </div><div class="s-lib-featured-profile-spacer clearfix"></div>
+        <div class="s-lib-featured-profile-container"><a href="/prf.php?account_id=106924">
+            <div class="s-lib-featured-profile-image">
+                 <img src="//libapps.s3.amazonaws.com/accounts/106924/profiles/98169/IMG_0565.jpg" alt="Sarah Morris's picture" />
+            </div>
+            <div class="s-lib-profile-div s-lib-featured-profile-name">Sarah Morris</div></a>
+        </div>
+        <div class="s-lib-featured-profile-container"><a href="/prf.php?account_id=95913">
+            <div class="s-lib-featured-profile-image">
+                 <img src="//libapps.s3.amazonaws.com/accounts/95913/profiles/86082/IMG_0529.JPG" alt="Beth Dodd's picture" />
+            </div>
+            <div class="s-lib-profile-div s-lib-featured-profile-name">Beth Dodd</div></a>
+        </div>
+					</div><a href="/prf.php" class="btn btn-info s-lg-hp-btn-section">More...</a>
+			</div>            </div>
+        </div>
+    </div>
+    <!-- END: content -->
+    <!-- BEGIN: Page Footer -->
+    
+        <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders">
+            <div>
+                <div id="s-lib-footer-brand">
+                    Powered by Springshare.
+                </div>
+                <div id="s-lib-footer-rights">
+                    All rights reserved.
+                </div>
+                <div id="s-lib-footer-login-link">
+                    <a href="https://austin-utexas.libapps.com/libapps/login.php?site_id=7871">Login to LibApps</a>
+                </div>
+            </div>
+            <div>
+                <!--
+                <div id="s-lib-footer-print-link">
+                    ~[23]~
+                </div>
+                -->
+                <div id="s-lib-footer-support-link">
+                    <a href="mailto:lib-tis@lib.utexas.edu">Report a problem.</a>
+                </div>
+            </div>
+        </div>    <!-- END: Page Footer -->
+    <div id="s-lib-alert" title="">
+                            <div id="s-lib-alert-content"></div>
+                       </div>    
+                <div id="s-lib-popover-title" class="hide">
+                    <span class="text-info"><strong>title</strong></span>
+                    <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">&times;</button>
+                </div>
+                <div id="s-lib-popover-content" class="hide"><i class="fa fa-refresh fa-spin"></i> Loading...
+                    <button class="btn btn-default btn-sm popclose" type="button">Close</button>
+                </div>    
+			<div id="s-lib-scroll-top">
+				<a href="javascript:void(0);" onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" title="Back to Top" aria-label="Back to Top"
+				aria-hidden="true">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-square-o fa-stack-2x"></i>
+					  <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+					</span>
+				</a>
+			</div>    <!-- BEGIN: Custom Footer -->
+    
+<p class="ccFoot container"><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+<!-- BEGIN: Analytics code --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3780897-33', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- END: Analytics code -->    <!-- END: Custom Footer -->
+    </body>
+    </html>
