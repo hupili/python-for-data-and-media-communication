@@ -1,9 +1,6 @@
 import twitter
 import csv
-api = twitter.Api(consumer_key='ORknl7hYEl3GHjbwb5zFjOWhc',
-                  consumer_secret='c5pH0qVLwv4AAe9fkuEMWM9SN6sSkNZwiZz9eeuynHox4w8ImF',
-                  access_token_key='3144235205-4fUWr9uVLXu2z1fI9Jk8SG6VXIH8ZlTg3naG6QZ',
-                  access_token_secret='Ubn5BIfMN2dg6UoRpFAz43A33JA0BrmBI5oDsyXynz92v')
+api = twitter.Api() #input your api here
 # print(api.VerifyCredentials())
     # # get your own api to twitter
 
