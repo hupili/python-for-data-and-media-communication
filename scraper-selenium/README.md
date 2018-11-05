@@ -1,1 +1,6 @@
-This folder is contributed by Xiao Chao.
+Selenium examples.
+
+(partial) list of contributors:
+
+- Xiao Chao
+- Xu Yucan
